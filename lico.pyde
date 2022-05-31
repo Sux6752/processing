@@ -3,13 +3,13 @@ def setup():
     strokeWeight(10)
     frameRate(15)
     noStroke()
+    fill(0, 255, 127)
     rect(100,100,50,50)
+    fill(255, 140, 0)
     triangle(250,225,325,300,200,300)
+    fill(0, 255, 127)
     rect(400,100,50,50)
-    quad(450,250,465,230,485,230,500,250)
-    quad(425,350,450,250,500,250,475,350)
-    quad(50,250,65,230,85,230,100,250)
-    quad(75,350,50,250,100,250,125,350)
+    rect(400,100,50,50)
     stroke(0)
 def draw():
     push()
@@ -270,38 +270,3 @@ def draw():
         line(400,150,450,150)
     if frameCount > 83:
         line(450,150,450,100)
-    if frameCount > 84:
-        line(425,350,450,250)
-    if frameCount > 85:
-        line(450,250,465,230)
-    if frameCount > 86:
-        line(450,250,465,230)
-    if frameCount > 87:
-        line(465,230,485,230)
-    if frameCount > 88:
-        line(485,230,500,250)
-    if frameCount > 89:
-        line(500,250,475,350)
-    if frameCount > 90:
-        line(475,350,425,350)
-    if frameCount > 91:
-        line(75,350,50,250)
-    if frameCount > 92:
-        line(50,250,65,230)
-    if frameCount > 93:
-        line(65,230,85,230)
-    if frameCount > 94:
-        line(85,230,100,250)
-    if frameCount > 95:
-        line(100,250,125,350)
-    if frameCount > 95:
-        line(75,350,125,350)
-        
-        
-        
-        
-        
-        
-        
-        
-        
